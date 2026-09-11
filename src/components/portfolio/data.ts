@@ -44,13 +44,13 @@ export const PROJECTS = [
     github: "https://github.com/sudo-ujjwal-dev/face-detection-opencv",
     demo: null,
   },
-  {
-    title: "To-Do List",
-    description: "A productivity app for creating, updating, and organizing daily tasks efficiently.",
-    image: project3,
-    tech: ["React", "Node.js", "WebSockets"],
-    github: null,
-    demo: null,
+     {
+    title: "UD Project Manager",
+    description: "A full-stack project management platform for teams to create projects, assign and track tasks, collaborate through comments, manage members, and receive notifications through a modern Kanban-style interface.",
+    image: "https://www.sweetprocess.com/wp-content/uploads/2022/08/Project-Management-Tool.png",
+    tech: ["React", "Node.js", "Express", "MySQL"],
+    github: "https://github.com/sudo-ujjwal-dev/ud-project-manager",
+    demo: "https://ud-project-manager-production.up.railway.app/",
   },
   {
     title: "Simple Calculator",

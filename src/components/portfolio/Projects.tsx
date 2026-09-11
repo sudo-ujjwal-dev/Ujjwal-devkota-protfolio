@@ -5,11 +5,6 @@ import { Section } from "./Section";
 import { PROJECTS } from "./data";
 
 export function Projects() {
-  const showDemoUnavailable = (event: MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    window.alert("Demo unavailable right now, please try later.");
-  };
-
   const handleGithubClick = (
     event: MouseEvent<HTMLAnchorElement>,
     githubUrl: string | null | undefined,
@@ -17,6 +12,16 @@ export function Projects() {
     if (!githubUrl) {
       event.preventDefault();
       window.alert("Repo has been deleted or unable to open right now. Please try later.");
+    }
+  };
+
+  const handleDemoClick = (
+    event: MouseEvent<HTMLAnchorElement>,
+    demoUrl: string | null | undefined,
+  ) => {
+    if (!demoUrl) {
+      event.preventDefault();
+      window.alert("Demo unavailable right now, please try later.");
     }
   };
 
@@ -75,8 +80,10 @@ export function Projects() {
                   <Github size={14} /> Code
                 </a>
                 <a
-                  href="#"
-                  onClick={showDemoUnavailable}
+                  href={p.demo ?? "#"}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(event) => handleDemoClick(event, p.demo)}
                   className="inline-flex items-center gap-1.5 rounded-lg bg-[var(--gradient-primary)] px-3 py-2 text-xs font-semibold text-white shadow-[var(--shadow-glow)] transition-transform hover:scale-[1.03]"
                 >
                   <ExternalLink size={14} /> Live Demo

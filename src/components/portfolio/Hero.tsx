@@ -158,21 +158,21 @@ export function Hero() {
             className="mt-8 flex items-center gap-4 text-muted-foreground"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/sudo-ujjwal-dev"
               aria-label="GitHub"
               className="transition-colors hover:text-foreground"
             >
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ujjwal-devkota-607496374/"
               aria-label="LinkedIn"
               className="transition-colors hover:text-foreground"
             >
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:ujjwal@example.com"
+              href="mailto:lumeleyujjwal@gmail.com"
               aria-label="Email"
               className="transition-colors hover:text-foreground"
             >

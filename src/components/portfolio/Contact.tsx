@@ -36,7 +36,7 @@ export function Contact() {
 
             <ul className="mt-6 space-y-3">
               {[
-                { icon: Mail, label: "ujjwal@example.com", href: "mailto:ujjwal@example.com" },
+                { icon: Mail, label: "ujjwal@gmail.com", href: "mailto:lumeleyujjwal@gmail.com" },
                 { icon: Github, label: "github.com/sudo-ujjwal-dev", href: "https://github.com/sudo-ujjwal-dev" },
                 { icon: Facebook, label: "facebook.com/ujjwal.devkota.1804", href: "https://www.facebook.com/ujjwal.devkota.1804" },
                 { icon: Instagram, label: "instagram.com/ujjwaldevkota01", href: "https://www.instagram.com/ujjwaldevkota01/" },
@@ -77,7 +77,7 @@ export function Contact() {
         >
           <div className="grid gap-4 sm:grid-cols-2">
             <Field label="Name" id="name" placeholder="Jane Doe" />
-            <Field label="Email" id="email" type="email" placeholder="jane@company.com" />
+            <Field label="Email" id="email" type="email" placeholder="your@company.com" />
           </div>
           <Field label="Subject" id="subject" placeholder="Let's work together" />
           <div className="mt-4">
