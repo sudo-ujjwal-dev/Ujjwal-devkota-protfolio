@@ -2,7 +2,8 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig, Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
-import { tanStackStartVite } from "@tanstack/start-plugin-core/vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import { cloudflare } from "@cloudflare/vite-plugin";
 
 function browserAsyncHooksShim(): Plugin {
   return {
@@ -20,20 +21,8 @@ function browserAsyncHooksShim(): Plugin {
 export default defineConfig({
   plugins: [
     browserAsyncHooksShim(),
-    tanStackStartVite(
-      {
-        framework: "react",
-        providerEnvironmentName: "ssr",
-        ssrIsProvider: true,
-        ssrResolverStrategy: { type: "default" },
-        defaultEntryPaths: {
-          client: "src/client.tsx",
-          server: "src/server.ts",
-          start: "src/start.ts",
-        },
-      },
-      {},
-    ),
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
+    tanstackStart(),
     react(),
     tailwindcss(),
   ],
