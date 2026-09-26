@@ -33,8 +33,8 @@ export const PROJECTS = [
     description: "A browser game with responsive UI, turn-based gameplay, and win/tie detection.",
     image: project1,
     tech: ["React", "Node.js", "Express", "MySQL"],
-    github: null,
-    demo: null,
+    github: "https://github.com/sudo-ujjwal-dev/tic-tac-toe",
+    demo: "https://sudo-ujjwal-dev.github.io/tic-tac-toe/",
   },
   {
     title: "Face Detection Using Python OpenCV",
@@ -44,7 +44,7 @@ export const PROJECTS = [
     github: "https://github.com/sudo-ujjwal-dev/face-detection-opencv",
     demo: null,
   },
-     {
+  {
     title: "UD Project Manager",
     description: "A full-stack project management platform for teams to create projects, assign and track tasks, collaborate through comments, manage members, and receive notifications through a modern Kanban-style interface.",
     image: "https://www.sweetprocess.com/wp-content/uploads/2022/08/Project-Management-Tool.png",
@@ -53,12 +53,12 @@ export const PROJECTS = [
     demo: "https://ud-project-manager-production.up.railway.app/",
   },
   {
-    title: "Simple Calculator",
-    description: "A lightweight calculator with basic arithmetic operations and a polished interface.",
+    title: "Nocturne Studio",
+    description: "A full-featured e-commerce storefront with product browsing, cart, and checkout flows built as part of the CodeAlpha internship program.",
     image: project4,
-    tech: ["React", "Express", "MySQL"],
-    github: null,
-    demo: null,
+    tech: ["React", "Node.js", "Express", "MySQL"],
+    github: "https://github.com/sudo-ujjwal-dev/CodeAlpha_nocturne-studio_Ecommerce",
+    demo: "https://nocturne-studio-1.onrender.com/",
   },
   {
     title: "Weather App Frontend Design",
@@ -90,6 +90,12 @@ export const EDUCATION = [
     title: "Higher Secondary Completion",
     org: "Management + Computer Science stream",
     detail: "Completed higher secondary education with a mix of management and computer science subjects.",
+  },
+  {
+    year: "2026",
+    title: "Joined Bachelor's Degree in BCSIT",
+    org: "Pokhara University (PoU)",
+    detail: "Began a Bachelor's degree in Computer Science and Information Technology (BCSIT).",
   },
   {
     year: "Present",
