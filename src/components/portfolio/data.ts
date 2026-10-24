@@ -1,6 +1,5 @@
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import project5 from "@/assets/project-5.jpg";
 import project6 from "@/assets/project-6.jpg";
@@ -61,12 +60,12 @@ export const PROJECTS = [
     demo: "https://nocturne-studio-1.onrender.com/",
   },
   {
-    title: "Weather App Frontend Design",
-    description: "A modern weather dashboard featuring location search, forecasts, and clean visuals.",
+    title: "Luna Brew Cafe",
+    description: "A full-stack cafe website and management system with an online menu, orders, table reservations, customer accounts, moderated reviews, and an admin dashboard with notifications. Built as a portfolio demo for a fictional cafe in Pokhara.",
     image: project5,
-    tech: ["React", "Node.js", "REST"],
-    github: null,
-    demo: null,
+    tech: ["Next.js", "Prisma", "MySQL", "Tailwind CSS"],
+    github: "https://github.com/sudo-ujjwal-dev/Luna-Brew-Cafe",
+    demo: "https://luna-brew-cafe.vercel.app/",
   },
   {
     title: "UD Linux Terminal",
