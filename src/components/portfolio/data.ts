@@ -28,14 +28,6 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: "Tic Tac Toe",
-    description: "A browser game with responsive UI, turn-based gameplay, and win/tie detection.",
-    image: project1,
-    tech: ["React", "Node.js", "Express", "MySQL"],
-    github: "https://github.com/sudo-ujjwal-dev/tic-tac-toe",
-    demo: "https://sudo-ujjwal-dev.github.io/tic-tac-toe/",
-  },
-  {
     title: "Face Detection Using Python OpenCV",
     description: "A computer vision app that detects faces in real time using Python and OpenCV.",
     image: project2,
@@ -74,6 +66,14 @@ export const PROJECTS = [
     tech: ["React", "Express", "MySQL"],
     github: "https://github.com/sudo-ujjwal-dev/Ujjwal_Terminal",
     demo: null,
+  },
+  {
+    title: "Tic Tac Toe",
+    description: "A browser game with responsive UI, turn-based gameplay, and win/tie detection.",
+    image: project1,
+    tech: ["React", "Node.js", "Express", "MySQL"],
+    github: "https://github.com/sudo-ujjwal-dev/tic-tac-toe",
+    demo: "https://sudo-ujjwal-dev.github.io/tic-tac-toe/",
   },
 ];
 
